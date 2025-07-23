@@ -29,18 +29,18 @@ Tech Stack
 
 3. npm install
 
-4.Create a .env file and add:
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_mysql_password
-DB_NAME=payment_app
-PORT=5000
+4. Create a .env file and add:
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASSWORD=your_mysql_password
+   DB_NAME=payment_app
+   PORT=5000
 
 
 7. Import the payment_app.sql database into MySQL:
 
    CREATE DATABASE payment_app;
-USE payment_app;
+   USE payment_app;
 -- Add the tables & sample data from the SQL file
 
 8. node server.js
